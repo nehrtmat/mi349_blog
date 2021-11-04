@@ -17,6 +17,7 @@ h1 {
 h2 {
     font-weight: 300;
     border-bottom: 1px dotted #242424;
+    margin: 20px;
 
 }
 p {
@@ -27,4 +28,20 @@ p {
 }
 #blog {
     border-top: 1px dotted #ccc;
+}
+.title {
+    position: sticky;
+    top: 0;
+}
+section{
+    display: flex;
+}
+article {
+    padding: 20px;
+    margin: 20px;
+}
+.picture{
+    float: left;
+    padding: 10px;
+    margin: 10px;
 }
