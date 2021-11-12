@@ -45,3 +45,11 @@ article {
     padding: 10px;
     margin: 10px;
 }
+@media (max-width: 400px) {
+    .picture {
+        float: right;
+    }
+    section {
+        background-color: aqua;
+    }
+}
